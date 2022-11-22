@@ -1,0 +1,319 @@
+­­­­­-­­­Script started on Wed 02 Nov 2022 09:42:03 PM CDT
+g++ ma]0;qw3581ym@csci4:~/project7 [?1034h[qw3581ym@csci4 project7]$ g++ mai[K[K[Kfrontlistmain.cpp
+]0;qw3581ym@csci4:~/project7 [qw3581ym@csci4 project7]$ /[K./.a[K[Ka.out
+copy constructor Test
+
+Entries to add to the list: entry0 entry1 entry2 entry3 entry4 entry5 
+Adding entry0
+Adding entry1
+Adding entry2
+Adding entry3
+Adding entry4
+Adding entry5
+
+The sorted list contains 
+entry0 entry1 entry2 entry3 entry4 entry5 
+
+Copy of list: 
+The sorted list contains 
+entry0 entry1 entry2 entry3 entry4 entry5 
+
+The Copied List:
+The sorted list contains 
+entry0 entry1 entry2 entry3 entry4 entry5 
+
+-------------------------------
+Tester
+
+Testing HAS-A
+
+Test isEmpty with an empty list:
+OKAY
+List should contain
+Nathan, Lucy, Peppr, Smokey, Coa, Xyla
+List actually contains: 
+The sorted list contains 
+Coa Lucy Nathan Pepper Smokey Xyla 
+
+
+
+Test getPosition:
+
+Nathan is at position 3
+Lucy is at position 2
+Pepper is at position 4
+Smokey is at position 5
+Coa is at position 1
+Xyla is at position 6
+Missy belongs at position -5
+Zeke belongs at position -7
+Aaron belongs at position -2
+
+Test getLength and getEntry:
+
+
+List has 6 entries, as follows:
+
+1: Coa
+2: Lucy
+3: Nathan
+4: Pepper
+5: Smokey
+6: Xyla
+
+Test remove:
+
+
+Removing first item (Nathan): 1; should be 1 (true)
+
+After removing Nathan, list contains 5 items, as follows:
+The sorted list contains 
+Coa Lucy Pepper Smokey Xyla 
+
+
+Removing interior item (Lucy: 1; should be 1 (true)
+
+After removing Lucy, list contains 4 items, as follows:
+The sorted list contains 
+Coa Pepper Smokey Xyla 
+
+Removing last item (Xyla): ; should be 1 (true)
+
+After removing last item, list contains 3 items, as follows:
+The sorted list contains 
+Coa Pepper Smokey 
+
+
+Removing a missing item (Nathan): 0; should be 0 (false)
+
+Removing a missing item (Lucy): 0; should be 0 (false)
+
+Removing a missing item (Xyla): 0; should be 0 (false)
+
+The list contains 3 items, as follows:
+The sorted list contains 
+Coa Pepper Smokey 
+
+
+Test clear():
+
+
+The list is empty after invoking clear().
+
+DONE!
+
+ListOpsTester
+
+The sorted list contains 
+Coa Lucy Nathan Pepper Smokey Xyla 
+
+isEmpty: returns 0; should be 0 (false)
+getLength returns : 6; should be 6
+remove(2): returns 1; should be 1 (true)
+remove(1): returns 1; should be 1 (true)
+remove(6): returns 0; should be 0 (false)
+The sorted list contains 
+Nathan Pepper Smokey Xyla 
+
+getLength returns : 4; should be 4
+clear: 
+isEmpty: returns 1; should be 1 (true)
+--------------------------------
+
+
+Testing IS-A
+
+Test isEmpty with an empty list:
+OKAY
+List should contain
+Nathan, Lucy, Peppr, Smokey, Coa, Xyla
+List actually contains: 
+The sorted list contains 
+Coa Lucy Nathan Pepper Smokey Xyla 
+
+
+
+Test getPosition:
+
+Nathan is at position 3
+Lucy is at position 2
+Pepper is at position 4
+Smokey is at position 5
+Coa is at position 1
+Xyla is at position 6
+Missy belongs at position -5
+Zeke belongs at position -7
+Aaron belongs at position -2
+
+Test getLength and getEntry:
+
+
+List has 6 entries, as follows:
+
+1: Coa
+2: Lucy
+3: Nathan
+4: Pepper
+5: Smokey
+6: Xyla
+
+Test remove:
+
+
+Removing first item (Nathan): 1; should be 1 (true)
+
+After removing Nathan, list contains 5 items, as follows:
+The sorted list contains 
+Coa Lucy Pepper Smokey Xyla 
+
+
+Removing interior item (Lucy: 1; should be 1 (true)
+
+After removing Lucy, list contains 4 items, as follows:
+The sorted list contains 
+Coa Pepper Smokey Xyla 
+
+Removing last item (Xyla): ; should be 1 (true)
+
+After removing last item, list contains 3 items, as follows:
+The sorted list contains 
+Coa Pepper Smokey 
+
+
+Removing a missing item (Nathan): 0; should be 0 (false)
+
+Removing a missing item (Lucy): 0; should be 0 (false)
+
+Removing a missing item (Xyla): 0; should be 0 (false)
+
+The list contains 3 items, as follows:
+The sorted list contains 
+Coa Pepper Smokey 
+
+
+Test clear():
+
+
+The list is empty after invoking clear().
+
+IS-A DONE!
+
+ListOpsTester
+
+The sorted list contains 
+Coa Lucy Nathan Pepper Smokey Xyla 
+
+isEmpty: returns 0; should be 0 (false)
+getLength returns : 6; should be 6
+remove(2): returns 1; should be 1 (true)
+remove(1): returns 1; should be 1 (true)
+remove(6): returns 0; should be 0 (false)
+The sorted list contains 
+Nathan Pepper Smokey Xyla 
+
+getLength returns : 4; should be 4
+clear: 
+isEmpty: returns 1; should be 1 (true)
+--------------------------------
+
+
+Testing AS-A
+
+Test isEmpty with an empty list:
+OKAY
+List should contain
+Nathan, Lucy, Peppr, Smokey, Coa, Xyla
+List actually contains: 
+The sorted list contains 
+Coa Lucy Nathan Pepper Smokey Xyla 
+
+
+
+Test getPosition:
+
+Nathan is at position 3
+Lucy is at position 2
+Pepper is at position 4
+Smokey is at position 5
+Coa is at position 1
+Xyla is at position 6
+Missy belongs at position -5
+Zeke belongs at position -7
+Aaron belongs at position -2
+
+Test getLength and getEntry:
+
+
+List has 6 entries, as follows:
+
+1: Coa
+2: Lucy
+3: Nathan
+4: Pepper
+5: Smokey
+6: Xyla
+
+Test remove:
+
+
+Removing first item (Nathan): 1; should be 1 (true)
+
+After removing Nathan, list contains 5 items, as follows:
+The sorted list contains 
+Coa Lucy Pepper Smokey Xyla 
+
+
+Removing interior item (Lucy: 1; should be 1 (true)
+
+After removing Lucy, list contains 4 items, as follows:
+The sorted list contains 
+Coa Pepper Smokey Xyla 
+
+Removing last item (Xyla): ; should be 1 (true)
+
+After removing last item, list contains 3 items, as follows:
+The sorted list contains 
+Coa Pepper Smokey 
+
+
+Removing a missing item (Nathan): 0; should be 0 (false)
+
+Removing a missing item (Lucy): 0; should be 0 (false)
+
+Removing a missing item (Xyla): 0; should be 0 (false)
+
+The list contains 3 items, as follows:
+The sorted list contains 
+Coa Pepper Smokey 
+
+
+Test clear():
+
+
+The list is empty after invoking clear().
+
+DONE!
+
+ListOpsTester
+
+The sorted list contains 
+Coa Lucy Nathan Pepper Smokey Xyla 
+
+isEmpty: returns 0; should be 0 (false)
+getLength returns : 6; should be 6
+remove(2): returns 1; should be 1 (true)
+remove(1): returns 1; should be 1 (true)
+remove(6): returns 0; should be 0 (false)
+The sorted list contains 
+Nathan Pepper Smokey Xyla 
+
+getLength returns : 4; should be 4
+clear: 
+isEmpty: returns 1; should be 1 (true)
+--------------------------------
+
+
+]0;qw3581ym@csci4:~/project7 [qw3581ym@csci4 project7]$ exit
+exit
+
+Script done on Wed 02 Nov 2022 09:42:24 PM CDT
